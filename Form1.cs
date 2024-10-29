@@ -13,6 +13,7 @@ namespace Problema_4._13
 {
     public partial class AMBPersonas : Form
     {
+        List<Persona> personas = new List<Persona>();
         public AMBPersonas()
         {
             InitializeComponent();
@@ -21,7 +22,9 @@ namespace Problema_4._13
             txtApellido.Enabled = false;
             txtNombre.Enabled = false;
             cboEstadoCivil.Enabled = false;
+            cboEstadoCivil.SelectedIndex = 0;
             cboTipoDoc.Enabled = false;
+            cboTipoDoc.SelectedIndex = 0;
             txtDocumento.Enabled = false;
             rbtFemenino.Enabled = false;
             rbtMasculino.Enabled = false;
@@ -43,7 +46,7 @@ namespace Problema_4._13
             cbFallecido.Enabled = true;
             txtApellido.Clear();
             txtNombre.Clear();
-            cboTipoDoc.SelectedIndex = -1;
+            cboTipoDoc.SelectedIndex = 0;
             txtDocumento.Clear();
             rbtMasculino.Select();
             cbFallecido.Checked = false;
@@ -68,10 +71,15 @@ namespace Problema_4._13
             cbFallecido.Enabled = true;
             txtApellido.Clear();
             txtNombre.Clear();
-            cboTipoDoc.SelectedIndex = -1;
+            cboTipoDoc.SelectedIndex = 0;
             txtDocumento.Clear();
             rbtMasculino.Select();
             cbFallecido.Checked = false;
+            btnBorrar.Enabled = false;
+            btnEditar.Enabled = false;
+            btnNuevo.Enabled = false;
+            btnSalir.Enabled = false;
+            lstPersonas.Enabled = false;
             txtApellido.Focus();
         }
 
@@ -98,7 +106,7 @@ namespace Problema_4._13
             cbFallecido.Enabled = false;
             txtApellido.Clear();
             txtNombre.Clear();
-            cboTipoDoc.SelectedIndex = -1;
+            cboTipoDoc.SelectedIndex = 0;
             txtDocumento.Clear();
             rbtMasculino.Select();
             cbFallecido.Checked = false;
@@ -129,7 +137,7 @@ namespace Problema_4._13
             cbFallecido.Enabled = false;
             txtApellido.Clear();
             txtNombre.Clear();
-            cboTipoDoc.SelectedIndex = -1;
+            cboTipoDoc.SelectedIndex = 0;
             txtDocumento.Clear();
             rbtMasculino.Select();
             cbFallecido.Checked = false;
@@ -138,7 +146,25 @@ namespace Problema_4._13
             btnEditar.Enabled = true;
             btnNuevo.Enabled = true;
             btnSalir.Enabled = true;
-
+            Persona p1 = new Persona();
+            p1.Apellido = txtApellido.Text;
+            p1.Nombre = txtNombre.Text;
+            p1.TipoDoc = cboTipoDoc.Text;
+            if(rbtFemenino.Checked)
+            {
+                p1.Sexo = "Femenino";
+            }
+            else if(rbtMasculino.Checked)
+            {
+                p1.Sexo = "Masculino";
+            }
+            p1.EstadoCivil = cboEstadoCivil.Text;
+            if(cbFallecido.Checked)
+            {
+                p1.Fallecido = true;
+            }
+            else { p1.Fallecido = false;}
+            personas.Add(p1);
         }
     }
 }

@@ -200,6 +200,8 @@
             // cboTipoDoc
             // 
             this.cboTipoDoc.FormattingEnabled = true;
+            this.cboTipoDoc.Items.AddRange(new object[] {
+            "DNI"});
             this.cboTipoDoc.Location = new System.Drawing.Point(219, 108);
             this.cboTipoDoc.Name = "cboTipoDoc";
             this.cboTipoDoc.Size = new System.Drawing.Size(116, 21);
@@ -208,6 +210,9 @@
             // cboEstadoCivil
             // 
             this.cboEstadoCivil.FormattingEnabled = true;
+            this.cboEstadoCivil.Items.AddRange(new object[] {
+            "CASADO",
+            "SOLTERO"});
             this.cboEstadoCivil.Location = new System.Drawing.Point(219, 177);
             this.cboEstadoCivil.Name = "cboEstadoCivil";
             this.cboEstadoCivil.Size = new System.Drawing.Size(116, 21);
