@@ -1,0 +1,10 @@
+C:\Users\syste\OneDrive\Escritorio\FACULTAD\CURSADO\PRIMER CUATRIMESTRE\PROGRAMACION\LOGICA\UNIDAD 4\EJERCICIOS\Problema-4.13\bin\Debug\Problema-4.13.exe.config
+C:\Users\syste\OneDrive\Escritorio\FACULTAD\CURSADO\PRIMER CUATRIMESTRE\PROGRAMACION\LOGICA\UNIDAD 4\EJERCICIOS\Problema-4.13\bin\Debug\Problema-4.13.exe
+C:\Users\syste\OneDrive\Escritorio\FACULTAD\CURSADO\PRIMER CUATRIMESTRE\PROGRAMACION\LOGICA\UNIDAD 4\EJERCICIOS\Problema-4.13\bin\Debug\Problema-4.13.pdb
+C:\Users\syste\OneDrive\Escritorio\FACULTAD\CURSADO\PRIMER CUATRIMESTRE\PROGRAMACION\LOGICA\UNIDAD 4\EJERCICIOS\Problema-4.13\obj\Debug\Problema-4.13.csproj.AssemblyReference.cache
+C:\Users\syste\OneDrive\Escritorio\FACULTAD\CURSADO\PRIMER CUATRIMESTRE\PROGRAMACION\LOGICA\UNIDAD 4\EJERCICIOS\Problema-4.13\obj\Debug\Problema_4._13.Properties.Resources.resources
+C:\Users\syste\OneDrive\Escritorio\FACULTAD\CURSADO\PRIMER CUATRIMESTRE\PROGRAMACION\LOGICA\UNIDAD 4\EJERCICIOS\Problema-4.13\obj\Debug\Problema-4.13.csproj.GenerateResource.cache
+C:\Users\syste\OneDrive\Escritorio\FACULTAD\CURSADO\PRIMER CUATRIMESTRE\PROGRAMACION\LOGICA\UNIDAD 4\EJERCICIOS\Problema-4.13\obj\Debug\Problema-4.13.csproj.CoreCompileInputs.cache
+C:\Users\syste\OneDrive\Escritorio\FACULTAD\CURSADO\PRIMER CUATRIMESTRE\PROGRAMACION\LOGICA\UNIDAD 4\EJERCICIOS\Problema-4.13\obj\Debug\Problema-4.13.exe
+C:\Users\syste\OneDrive\Escritorio\FACULTAD\CURSADO\PRIMER CUATRIMESTRE\PROGRAMACION\LOGICA\UNIDAD 4\EJERCICIOS\Problema-4.13\obj\Debug\Problema-4.13.pdb
+C:\Users\syste\OneDrive\Escritorio\FACULTAD\CURSADO\PRIMER CUATRIMESTRE\PROGRAMACION\LOGICA\UNIDAD 4\EJERCICIOS\Problema-4.13\obj\Debug\Problema_4._13.AMBPersonas.resources
