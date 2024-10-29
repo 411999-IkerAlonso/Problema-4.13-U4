@@ -253,9 +253,9 @@
             // lstPersonas
             // 
             this.lstPersonas.FormattingEnabled = true;
-            this.lstPersonas.Location = new System.Drawing.Point(524, 46);
+            this.lstPersonas.Location = new System.Drawing.Point(372, 46);
             this.lstPersonas.Name = "lstPersonas";
-            this.lstPersonas.Size = new System.Drawing.Size(217, 238);
+            this.lstPersonas.Size = new System.Drawing.Size(400, 238);
             this.lstPersonas.TabIndex = 14;
             // 
             // AMBPersonas

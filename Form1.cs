@@ -135,6 +135,26 @@ namespace Problema_4._13
             rbtFemenino.Enabled = false;
             rbtMasculino.Enabled = false;
             cbFallecido.Enabled = false;
+            Persona p1 = new Persona();
+            p1.Apellido = txtApellido.Text;
+            p1.Nombre = txtNombre.Text;
+            p1.TipoDoc = cboTipoDoc.Text;
+            if (rbtFemenino.Checked)
+            {
+                p1.Sexo = "Femenino";
+            }
+            else if (rbtMasculino.Checked)
+            {
+                p1.Sexo = "Masculino";
+            }
+            p1.EstadoCivil = cboEstadoCivil.Text;
+            if (cbFallecido.Checked)
+            {
+                p1.Fallecido = true;
+            }
+            else { p1.Fallecido = false; }
+            personas.Add(p1);
+            lstPersonas.Items.Add(p1.ToString());
             txtApellido.Clear();
             txtNombre.Clear();
             cboTipoDoc.SelectedIndex = 0;
@@ -146,25 +166,6 @@ namespace Problema_4._13
             btnEditar.Enabled = true;
             btnNuevo.Enabled = true;
             btnSalir.Enabled = true;
-            Persona p1 = new Persona();
-            p1.Apellido = txtApellido.Text;
-            p1.Nombre = txtNombre.Text;
-            p1.TipoDoc = cboTipoDoc.Text;
-            if(rbtFemenino.Checked)
-            {
-                p1.Sexo = "Femenino";
-            }
-            else if(rbtMasculino.Checked)
-            {
-                p1.Sexo = "Masculino";
-            }
-            p1.EstadoCivil = cboEstadoCivil.Text;
-            if(cbFallecido.Checked)
-            {
-                p1.Fallecido = true;
-            }
-            else { p1.Fallecido = false;}
-            personas.Add(p1);
         }
     }
 }

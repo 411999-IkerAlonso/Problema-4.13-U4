@@ -38,5 +38,10 @@ namespace Problema_4._13
             Sexo = sexo;
             Fallecido = fallecido;
         }
+
+        public override string ToString()
+        {
+            return $"Apellido: {Apellido} |Nombre: {Nombre} |Tipo Documento: {TipoDoc} |Documento: {Documento} |Estado Civil: {EstadoCivil} |Sexo: {Sexo} |Fallecido: {Fallecido}";
+        }
     }
 }
